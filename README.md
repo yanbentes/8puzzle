@@ -5,7 +5,7 @@ Made with **[Love2D](https://love2d.org/)** version 11.3.
 
 ### Goal
 
-![board]("img/board.png")
+![board](img/board.png)
 
 ### Play
 
