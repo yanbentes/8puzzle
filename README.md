@@ -9,8 +9,8 @@ Made with **[Love2D](https://love2d.org/)** version 11.3.
 
 ### Play
 
-`git clone https://github.com/yanbentes/click-the-lua.git`
+`git clone https://github.com/yanbentes/8.git`
 
 run love framework
 
-`love click-the-lua/`
+`love 8/`
