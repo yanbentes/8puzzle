@@ -1,7 +1,8 @@
 # 8 pieces puzzle game
 
-the goal is to rearrange the pieces of the board to the correct order by clicking on pieces next to the blank square.<br/>
-Made with **[LÖVE](https://love2d.org/)** version 11.3.
+the goal is to rearrange the pieces of the board to the correct order by clicking on pieces next to the blank square
+
+Made with **[LÖVE](https://love2d.org/)** version 11.3
 
 ### Goal
 
@@ -13,9 +14,9 @@ Download the game [zip](https://drive.google.com/file/d/1GJOHgEi7Eg-hp-vSAOx7Aze
 
 ### Play on Linux and MacOS
 
-First install **[LÖVE](https://love2d.org/)** framework.
+First install **[LÖVE](https://love2d.org/)** framework
 
-Download and execute the game [8.love](https://drive.google.com/file/d/1FpB9aE-dFli9Wm_Yt2hTOPGm2f5RemsH/view?usp=sharing) file. 
+Download and execute the game [8.love](https://drive.google.com/file/d/1FpB9aE-dFli9Wm_Yt2hTOPGm2f5RemsH/view?usp=sharing) file
  
 Or run this commands:
 
