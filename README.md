@@ -1,15 +1,15 @@
 # 8 pieces puzzle game
 
 the goal is to rearrange the pieces of the board to the correct order by clicking on pieces next to the blank square.<br/>
-Made with **[Love2D](https://love2d.org/)** version 11.3.
+Made with **[LÖVE](https://love2d.org/)** version 11.3.
 
 ### Goal
 
-![board](img/board.png)
+<img src="img/board.png" alt="board" width="300" height="300"/>
 
 ### Play
 
-First install **[Love2D](https://love2d.org/)**
+First install **[LÖVE](https://love2d.org/)** framework.
 
 Download the `8.love` file and run with double click. 
 
