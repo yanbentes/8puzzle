@@ -7,22 +7,20 @@ Made with **[LÖVE](https://love2d.org/)** version 11.3.
 
 <img src="img/board.png" alt="board" width="300" height="300"/>
 
-### Play
+### Play on Windows
 
-#### Windows
+Download the [game](https://drive.google.com/file/d/1GJOHgEi7Eg-hp-vSAOx7AzezOpfzFVpy/view?usp=sharing) *zip* file and open the 8-puzzle.exe file
 
-> Download the [game](https://drive.google.com/file/d/1GJOHgEi7Eg-hp-vSAOx7AzezOpfzFVpy/view?usp=sharing) *zip* file and open the 8-puzzle.exe file
+### Play on Linux and MacOS
 
-#### Linux and MacOS
+First install **[LÖVE](https://love2d.org/)** framework.
 
-> First install **[LÖVE](https://love2d.org/)** framework.
->
-> Download and execute the [game](https://drive.google.com/file/d/1FpB9aE-dFli9Wm_Yt2hTOPGm2f5RemsH/view?usp=sharing) *.love* file. 
-> 
-> Or run this commands:
->
-> `git clone https://github.com/yanbentes/8.git`
-> 
-> run love framework
-> 
-> `love 8/`
+Download and execute the [game](https://drive.google.com/file/d/1FpB9aE-dFli9Wm_Yt2hTOPGm2f5RemsH/view?usp=sharing) *.love* file. 
+ 
+Or run this commands:
+
+`git clone https://github.com/yanbentes/8.git`
+ 
+run love framework
+ 
+`love 8/`
