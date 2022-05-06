@@ -16,12 +16,6 @@ function love.load()
    -- tiles width and heigth
    w = math.floor(source:getWidth()/3)
    h = math.floor(source:getHeight()/3)
-
-   --[[ f(n) = g(n) + h(n)
-   fn = 0
-   gn = 0
-   hn = 0
-   ]]--
    
    cropImage()
 
@@ -45,12 +39,8 @@ function love.draw()
 
    if isSolved() then
       love.graphics.print("You solved it!!!", 150, 450)
-   --[[
    else
-      love.graphics.print("f(n)  = " .. fn, 20, 410)
-      love.graphics.print("g(n) = " .. gn, 20, 440)
-      love.graphics.print("h(n) = " .. hn, 20, 470)
-   ]]--
+      love.graphics.print("github.com/yanbentes/8", 100, 440)
    end
    
 end
@@ -127,11 +117,11 @@ function isNeighbor(i, j, x, y)
       return false
    end
 
-  if math.abs(i - x) == 1 or math.abs(j - y) == 1 then
-     return true
-  end
-  
-  return false;
+   if math.abs(i - x) == 1 or math.abs(j - y) == 1 then
+      return true
+   end
+   
+   return false;
 end
 
 function isSolved()
