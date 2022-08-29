@@ -135,3 +135,11 @@ function isSolved()
 
    return true
 end
+
+function love.keypressed(key, scancode, isrepeat)
+   if key == "q" then
+      love.event.quit()
+   elseif key == "r" then
+      love.load()
+   end
+end
