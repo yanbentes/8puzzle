@@ -34,9 +34,7 @@ function drawBoard()
       end
    end
 
-   if isSolved() then
-      local result = start - love.timer.getTime()
-      
+   if isSolved() then      
       love.graphics.setFont(love.graphics.newFont(16))
       love.graphics.print("You solved it!!!", 144, 10)
       -- love.graphics.print("moves: " .. moves .. " time: " .. result, 120, 35)
