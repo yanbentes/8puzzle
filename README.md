@@ -6,7 +6,7 @@ Made with **[LÖVE](https://love2d.org/)** version 11.3
 
 ### Goal
 
-<img src="img/board.png" alt="board" width="300" height="300"/>
+<img src="assets/board.png" alt="board" width="300" height="300"/>
 
 ### Play on Windows
 
