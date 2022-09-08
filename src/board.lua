@@ -1,7 +1,7 @@
 function loadBoard()
    
    -- board image
-   source = love.graphics.newImage("assets/board.png")
+   source = love.graphics.newImage("assets/board2.png")
    
    tiles = {}
    solved = {} -- tiles in their original positions
@@ -32,15 +32,6 @@ function drawBoard()
 	    love.graphics.draw(source, tiles[i][j], x, y)
 	 end
       end
-   end
-
-   if isSolved() then      
-      love.graphics.setFont(love.graphics.newFont(16))
-      love.graphics.print("You solved it!!!", 144, 10)
-      -- love.graphics.print("moves: " .. moves .. " time: " .. result, 120, 35)
-      love.graphics.print("Press <r> to restart", 120, 60)
-   else
-      love.graphics.print(moves)
    end
    
 end
@@ -95,7 +86,7 @@ function moveTiles(arr, i, j, mov)
    if isNeighbor(i, j, blankCol, blankRow) then
       swap(arr, i, j, blankCol, blankRow)
 
-      moves = moves + 1
+      Moves = Moves + 1
    end
    
 end

@@ -1,32 +1,30 @@
---[[
-   1,1 | 2,1 | 3,1
-   1,2 | 2,2 | 3,2
-   1,3 | 2,3 | 3,3
-]]--
-require("src/board")
-require("src/menu")
-
 function love.load()
 
-    -- window title
+   -- window title
    love.window.setTitle("8 PUZZLE")
 
-   -- window icon TODO
+   -- window icon
+   iconData = love.window.getIcon()
+   love.window.setIcon(iconData)
 
    -- window and font size
    love.window.setMode(400, 500, {resizable = false, vsync = false})
    love.graphics.setFont(love.graphics.newFont(22))
-   
+
+   require("src/board")
    loadBoard()
 
-   moves = 0 -- number of movements
-   timer = 0 -- game time
+   Pause = false
+   Moves = 0 -- number of movements
+   Timer = 0 -- game time
    
 end
 
 function love.update(dt)
-   
-   timer = timer + dt
+
+   if not Pause then
+      Timer = Timer + dt
+   end
    
 end
 
@@ -34,14 +32,27 @@ function love.draw()
    
    drawBoard()
 
-   -- love.graphics.print(timer, 120, 10)
+   if isSolved() then
+
+      Pause = true
+      time = Timer
+      moves = Moves
+      
+      love.graphics.setFont(love.graphics.newFont(16))
+      love.graphics.print("You solved it!!!", 144, 10)
+      love.graphics.print("moves: " .. moves .. string.format(" time: %.1f", time), 120, 35)
+      love.graphics.print("Press <r> to restart", 120, 60)
+   else
+      love.graphics.print(Moves, 0, 10)
+      love.graphics.print(string.format("%.1f", Timer), 180, 10)
+   end
    
 end
 
 function love.mousepressed(x, y, button, istouch, presses)
    
-   if button == 1 and y >= 100 then
-      pressed(x, y, moves)
+   if button == 1 and y >= 100 and not Pause then
+      pressed(x, y, Moves)
    end
    
 end
