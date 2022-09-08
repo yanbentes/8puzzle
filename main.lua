@@ -40,11 +40,11 @@ function love.draw()
       
       love.graphics.setFont(love.graphics.newFont(16))
       love.graphics.print("You solved it!!!", 144, 10)
-      love.graphics.print("moves: " .. moves .. string.format(" time: %.1f", time), 120, 35)
+      love.graphics.print(moves .. " moves and" .. string.format(" %.1f s", time), 125, 35)
       love.graphics.print("Press <r> to restart", 120, 60)
    else
       love.graphics.print(Moves, 0, 10)
-      love.graphics.print(string.format("%.1f", Timer), 180, 10)
+      love.graphics.print(string.format("%.1f s", Timer), 180, 10)
    end
    
 end
