@@ -6,22 +6,20 @@ Made with **[LÖVE](https://love2d.org/)**
 
 ### Goal
 
-<img src="assets/board.png" alt="board" width="300" height="300"/>
+<img src="assets/board2.png" alt="board" width="300" height="300"/>
 
 ### Play on Windows
 
-Download the game [zip](https://drive.google.com/file/d/15TwE5muHJjsNPEfKoJOum1rgEF06aVBe/view?usp=sharing) file and open the 8-puzzle.exe file. Please don't delete the .dll files, the game will not work without them.
+Download the game [zip](https://drive.google.com/file/d/1T0Iu_xcWoubLXKwlxH0bqZNHVbga3F24/view?usp=sharing) file and open the 8-puzzle.exe file. Please don't delete the .dll files, the game will not work without them.
 
 ### Play on Linux and MacOS
 
 First install **[LÖVE](https://love2d.org/)** framework
 
-Download and execute the file [8.love](https://drive.google.com/file/d/1wDMGUQDBam0xyaMCbU--RCglt1uHnnZq/view?usp=sharing)
- 
-Or run this commands:
+Download and execute the file [8.love](https://drive.google.com/file/d/1XCTubHVAD_d8_cX7mAKSODSwKzk-ZdQq/view?usp=sharing) or clone the repo
 
 `git clone https://github.com/yanbentes/8.git`
  
-run love framework
+and run the love2d framework
  
 `love 8/`
